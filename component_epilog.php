@@ -16,8 +16,9 @@ if ( ! $USER->IsAuthorized()) {
 count($arFavorites);
 /* Меняем отображение сердечка товара */
 foreach ($arFavorites as $k => $favoriteItem):?>
-    <script>
-        if ($('a.favor[data-item="<?=$favoriteItem?>"]'))
-            $('a.favor[data-item="<?=$favoriteItem?>"]').addClass('active');
-    </script>
+	<script>
+		if ($('a.favor[data-item="<?=$favoriteItem?>"]')) {
+			$('a.favor[data-item="<?=$favoriteItem?>"]').addClass('active');
+		}
+	</script>
 <?php endforeach; ?>

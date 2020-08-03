@@ -6,7 +6,7 @@ use Bitrix\Main\Application;
 use Bitrix\Main\Web\Cookie;
 
 $application = Application::getInstance();
-$context	 = $application->getContext();
+$context     = $application->getContext();
 ?>
 
 <div class="inner container favorites">

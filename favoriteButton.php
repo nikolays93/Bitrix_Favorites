@@ -40,7 +40,7 @@ if ( ! $USER->IsAuthorized()) // Для неавторизованного
 /* Вывод количества избранного */
 ?>
 <a id='want' class="block" href="/personal/wishlist/">
-    <span class="col"><?= $wishCount ?></span>
-    <div class="icon"></div>
-    <p>Хочу</p>
+	<span class="col"><?= $wishCount ?></span>
+	<div class="icon"></div>
+	<p>Хочу</p>
 </a>
